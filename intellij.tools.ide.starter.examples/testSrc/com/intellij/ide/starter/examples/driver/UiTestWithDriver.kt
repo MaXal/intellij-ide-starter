@@ -47,6 +47,8 @@ class UiTestWithDriver {
       }
     }
 
+    println("License is provided: '"+System.getenv("LICENSE_KEY")+"'")
+
     val testContext = Starter
       .newContext(CurrentTestMethod.hyphenateWithClass(), TestCase(IdeProductProvider.IU, GitHubProject.fromGithub(
         branchName = "master",
