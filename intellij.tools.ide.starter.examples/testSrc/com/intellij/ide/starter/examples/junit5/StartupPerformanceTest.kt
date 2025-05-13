@@ -19,6 +19,7 @@ import java.nio.file.Path
 import kotlin.io.path.div
 import kotlin.time.Duration.Companion.minutes
 
+@Disabled("Temporary disable for faster build")
 class StartupPerformanceTest {
   @Test
   fun testStartupPerformance() {

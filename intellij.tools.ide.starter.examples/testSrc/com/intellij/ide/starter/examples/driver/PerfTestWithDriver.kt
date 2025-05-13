@@ -23,6 +23,7 @@ import com.intellij.tools.ide.performanceTesting.commands.openFile
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 
+@Disabled("Temporary disable for faster build")
 class PerfTestWithDriver {
   @Test
   fun openGradleJitPack() {

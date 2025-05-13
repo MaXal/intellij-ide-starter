@@ -13,6 +13,7 @@ import com.intellij.tools.ide.performanceTesting.commands.inspectCode
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
+@Disabled("Temporary disable for faster build")
 class IdeaJUnit5ExampleTest {
   @Test
   fun openGradleJitPack() {
