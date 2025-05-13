@@ -22,6 +22,7 @@ import com.intellij.ide.starter.examples.driver.model.LafManager
 import com.intellij.tools.ide.performanceTesting.commands.openFile
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Disabled
 
 @Disabled("Temporary disable for faster build")
 class PerfTestWithDriver {
