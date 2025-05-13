@@ -35,6 +35,12 @@ jobs:
           path: |
             **/build/reports/
             **/build/test-results/
+      - name: Upload IDE test logs
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs
+          path: '**/out/ide-tests/tests/**/log'
       - name: Notify in Slack in case of failure
         uses: slackapi/slack-github-action@v1.24.0
         if: ${{ failure() }}
